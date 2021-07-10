@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
     root: {
-      minWidth: 275,
+      minWidth: 275
     },
     bullet: {
       display: 'inline-block',
@@ -40,7 +40,9 @@ export default function ListItem(props) {
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="small"><a href={props.notice.attachment} download>DOWNLOAD</a></Button>
+                <Button size="small">
+                    <a href={props.notice.attachment} download>DOWNLOAD</a>
+                </Button>
             </CardActions>
             <br />
         </Card>
