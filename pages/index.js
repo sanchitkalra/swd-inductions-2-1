@@ -40,7 +40,6 @@ export default function Home() {
           <Typography variant="h6">
             SWD
           </Typography>
-          {/* <Button edge="end" color="inherit" >GitHub</Button> */}
         </Toolbar>
       </AppBar>
       </header>
